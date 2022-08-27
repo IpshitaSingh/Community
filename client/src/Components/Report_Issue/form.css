@@ -1,0 +1,62 @@
+@import "../../App.css";
+
+.Map {
+    order: 1;
+    flex-grow: 2;
+}
+
+.Form{
+    order: 0;
+    flex-shrink: 3;
+}
+
+.Modal {
+    max-width: none; 
+    padding: 1rem;
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    flex-direction: column;
+}
+
+#newIssueButton {
+    position: absolute;
+    padding: 20px;
+    left: -160px;
+    top: 80vh;
+    margin: 30px;
+    height: 10%;
+
+}
+
+#doneReportingButton {
+    position: absolute;
+    padding: 20px;
+    left: -250px;
+    top: 75vh;
+    margin: 30px;
+}
+
+#reportCard {
+  position: absolute;
+  padding: 20px;
+  /* left: -100vh; */
+  margin: 30px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #89D94A;
+  white-space: pre-wrap;
+} 
+
+.Buttons {
+    order: 3;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+
+.typeInput {
+    display: flex;
+}
